@@ -218,10 +218,10 @@
         android:text="="
         android:textColor="@color/black"
         android:textSize="28sp"
-        app:backgroundTint="#313335" />
+        app:backgroundTint="#CFAFEC" />
 
     <Button
-        android:id="@+id/bt_per"
+        android:id="@+id/bt_remainder"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
