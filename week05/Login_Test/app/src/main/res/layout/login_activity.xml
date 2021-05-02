@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/editTxt_userName"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@mipmap/xingming"
+            android:hint="姓名" />
+
+        <EditText
+            android:id="@+id/editTxt_phone"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/call"
+            android:hint="电话"
+            android:inputType="phone"
+            android:maxLength="11" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性别："
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"></TextView>
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_boy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@+id/radio_girl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="女" />
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="我喜欢的专业课："
+            android:textSize="20dp"/>
+        <CheckBox
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java"/>
+        <CheckBox
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andriod"/>
+        <CheckBox
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英语"/>
+        <CheckBox
+            android:id="@+id/c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数学"/>
+        <Button
+            android:id="@+id/Button_concern"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="确定"
+            android:layout_gravity="center"
+            android:backgroundTint="#C9A5F6"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>

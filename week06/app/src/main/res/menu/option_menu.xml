@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"
+        android:title="查找" />
+    <item
+        android:id="@+id/item_download"
+        android:icon="@drawable/ic_download"
+        android:title="下载"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="withText"
+        android:title="设置" />
+</menu>

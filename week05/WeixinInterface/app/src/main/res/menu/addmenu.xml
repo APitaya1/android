@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/talk"
+        android:title="发起群聊"
+        app:showAsAction="never"
+        android:icon="@mipmap/search"/>
+    <item android:id="@+id/friend"
+        android:title="添加朋友"/>
+    <item android:id="@+id/scan"
+        android:title="扫一扫"/>
+    <item android:id="@+id/receving"
+        android:title="收付款"/>
+</menu>
